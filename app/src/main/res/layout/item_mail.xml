@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="84dp"
+    android:clickable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    >
+
+    <ImageView
+        android:id="@+id/item_mail_img"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+
+        android:id="@+id/item_mail_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="TextView"
+        android:textColor="?text_color"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/item_mail_img"
+        app:layout_constraintTop_toTopOf="@+id/item_mail_img"
+        app:layout_constraintWidth_default="wrap" />
+
+    <TextView
+        android:id="@+id/item_mail_description"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="TextView"
+        android:textColor="?text_sec_color"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/item_mail_fav"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/item_mail_img"
+        app:layout_constraintTop_toBottomOf="@+id/item_mail_title"
+        app:layout_constraintWidth_default="wrap" />
+
+    <TextView
+        android:textColor="?text_sec_color"
+
+        android:id="@+id/item_mail_content"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:maxLines="1"
+        android:text="TextView"
+        app:layout_constraintEnd_toStartOf="@+id/item_mail_fav"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/item_mail_img"
+        app:layout_constraintTop_toBottomOf="@+id/item_mail_description"
+        app:layout_constraintWidth_default="wrap" />
+
+    <TextView
+        android:textColor="?text_color"
+        android:id="@+id/item_mail_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="Mar 30"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/item_mail_title"
+        app:layout_constraintTop_toTopOf="@+id/item_mail_title" />
+
+    <ImageView
+        android:id="@+id/item_mail_fav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/item_mail_date"
+        app:srcCompat="@drawable/ic_baseline_star_border_24"
+        app:tint="?nav_icon_tint" />
+</androidx.constraintlayout.widget.ConstraintLayout>

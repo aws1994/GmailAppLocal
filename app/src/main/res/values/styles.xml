@@ -1,0 +1,40 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="background_color">@color/light_bg</item>
+        <item name="text_color">@color/light_text_color</item>
+        <item name="text_sec_color">@color/light_text_sec_color</item>
+        <item name="search_bg_color">@color/light_search_bg</item>
+        <item name="fab_bg_color">@color/light_fab_color</item>
+        <item name="fab_tint_color">@color/light_fab_tint</item>
+        <item name="nav_icon_tint">@color/light_nav_icon_tint</item>
+
+
+    </style>
+
+
+    <style name="DarkTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">#202125</item>
+        <item name="colorPrimaryDark">#202125</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="background_color">@color/dark_bg</item>
+        <item name="text_color">@color/dark_text_color</item>
+        <item name="text_sec_color">@color/dark_text_sec_color</item>
+        <item name="search_bg_color">@color/dark_search_bg</item>
+        <item name="fab_bg_color">@color/dark_fab_color</item>
+        <item name="fab_tint_color">@color/dark_fab_tint</item>
+        <item name="nav_icon_tint">@color/dark_nav_icon_tint</item>
+
+    </style>
+
+
+
+</resources>

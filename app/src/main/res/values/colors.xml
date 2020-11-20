@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+
+
+
+    <color name="purple">#B365F8</color>
+    <color name="red">#F96335</color>
+    <color name="black">#1E1E1E</color>
+    <color name="blue">#008DFC</color>
+    <color name="yellow">#FCBF38</color>
+    <color name="green">#21A049</color>
+
+
+<!--    // dark / light theme-->
+
+    <color name="light_bg">#ffffff</color>
+    <color name="dark_bg">#202125</color>
+
+    <color name="light_nav_icon_tint">#474747</color>
+    <color name="dark_nav_icon_tint">#e9eaee</color>
+
+    <color name="light_nav_bg">#ffffff</color>
+    <color name="dark_nav_bg">#202125</color>
+
+    <color name="light_search_bg">#ffffff</color>
+    <color name="dark_search_bg">#303135</color>
+
+    <color name="light_text_color">#000000</color>
+    <color name="light_text_sec_color">#6F6F6F</color>
+    <color name="dark_text_color">#ffffff</color>
+    <color name="dark_text_sec_color">#DADADA</color>
+
+    <color name="light_fab_color">#ffffff</color>
+    <color name="dark_fab_color">#36373b</color>
+
+    <color name="light_fab_tint">#F44336</color>
+    <color name="dark_fab_tint">#f28b82</color>
+
+
+    <!-- colors schema Light Theme-->
+
+    <color name="light_main_text" >#2d2d2d</color>
+    <color name="light_second_text" >#9D9D9D</color>
+
+
+
+
+    <!-- colors schema Dark Theme-->
+    <color name="dark_main_text" >#F9F9F9</color>
+    <color name="dark_second_text" >#EEEEEE</color>
+
+
+
+</resources>

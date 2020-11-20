@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="dc">
+
+        <attr name="background_color" format="color"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_sec_color" format="color"/>
+        <attr name="search_bg_color" format="color"/>
+        <attr name="fab_bg_color" format="color"/>
+        <attr name="fab_tint_color" format="color"/>
+        <attr name="nav_icon_tint" format="color" />
+
+    </declare-styleable>
+
+</resources>
